@@ -1,0 +1,8 @@
+D:\Portifolio_Git\ApiRest_crud\Src\Business\bin\Debug\netcoreapp2.2\Business.deps.json
+D:\Portifolio_Git\ApiRest_crud\Src\Business\bin\Debug\netcoreapp2.2\Business.dll
+D:\Portifolio_Git\ApiRest_crud\Src\Business\bin\Debug\netcoreapp2.2\Business.pdb
+D:\Portifolio_Git\ApiRest_crud\Src\Business\obj\Debug\netcoreapp2.2\Business.csprojAssemblyReference.cache
+D:\Portifolio_Git\ApiRest_crud\Src\Business\obj\Debug\netcoreapp2.2\Business.AssemblyInfoInputs.cache
+D:\Portifolio_Git\ApiRest_crud\Src\Business\obj\Debug\netcoreapp2.2\Business.AssemblyInfo.cs
+D:\Portifolio_Git\ApiRest_crud\Src\Business\obj\Debug\netcoreapp2.2\Business.dll
+D:\Portifolio_Git\ApiRest_crud\Src\Business\obj\Debug\netcoreapp2.2\Business.pdb

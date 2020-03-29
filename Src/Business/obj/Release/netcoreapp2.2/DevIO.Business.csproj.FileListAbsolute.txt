@@ -1,0 +1,16 @@
+C:\Users\Kaique\Downloads\src\DevIO.Business\bin\Release\netcoreapp2.2\DevIO.Business.deps.json
+C:\Users\Kaique\Downloads\src\DevIO.Business\bin\Release\netcoreapp2.2\DevIO.Business.dll
+C:\Users\Kaique\Downloads\src\DevIO.Business\bin\Release\netcoreapp2.2\DevIO.Business.pdb
+C:\Users\Kaique\Downloads\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.csprojAssemblyReference.cache
+C:\Users\Kaique\Downloads\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.AssemblyInfoInputs.cache
+C:\Users\Kaique\Downloads\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.AssemblyInfo.cs
+C:\Users\Kaique\Downloads\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.dll
+C:\Users\Kaique\Downloads\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.pdb
+C:\Users\Kaique\Downloads\Curso-Eduardo-Pires\src\DevIO.Business\bin\Release\netcoreapp2.2\DevIO.Business.deps.json
+C:\Users\Kaique\Downloads\Curso-Eduardo-Pires\src\DevIO.Business\bin\Release\netcoreapp2.2\DevIO.Business.dll
+C:\Users\Kaique\Downloads\Curso-Eduardo-Pires\src\DevIO.Business\bin\Release\netcoreapp2.2\DevIO.Business.pdb
+C:\Users\Kaique\Downloads\Curso-Eduardo-Pires\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.csprojAssemblyReference.cache
+C:\Users\Kaique\Downloads\Curso-Eduardo-Pires\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.AssemblyInfoInputs.cache
+C:\Users\Kaique\Downloads\Curso-Eduardo-Pires\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.AssemblyInfo.cs
+C:\Users\Kaique\Downloads\Curso-Eduardo-Pires\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.dll
+C:\Users\Kaique\Downloads\Curso-Eduardo-Pires\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.pdb
