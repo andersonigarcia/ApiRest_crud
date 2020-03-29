@@ -11,7 +11,7 @@ namespace Data.Repository
     {
         public EnderecoRepository(MeuDbContext context) : base(context) { }
 
-        public async Task<Endereco> ObterEnderecoPorFornecedor(Guid fornecedorId)
+        public async Task<Endereco> GetAdressByProvider(Guid fornecedorId)
         {
             return await Db.Enderecos.AsNoTracking()
                 .FirstOrDefaultAsync(f => f.FornecedorId == fornecedorId);

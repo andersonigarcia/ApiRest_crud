@@ -20,7 +20,7 @@ namespace Business.Services
             _enderecoRepository = enderecoRepository;
         }
 
-        public async Task<bool> Adicionar(Fornecedor fornecedor)
+        public async Task<bool> Insert(Fornecedor fornecedor)
         {
             if (!ExecutarValidacao(new FornecedorValidation(), fornecedor) 
                 || !ExecutarValidacao(new EnderecoValidation(), fornecedor.Endereco)) return false;
@@ -35,7 +35,7 @@ namespace Business.Services
             return true;
         }
 
-        public async Task<bool> Atualizar(Fornecedor fornecedor)
+        public async Task<bool> Update(Fornecedor fornecedor)
         {
             if (!ExecutarValidacao(new FornecedorValidation(), fornecedor)) return false;
 
@@ -49,22 +49,22 @@ namespace Business.Services
             return true;
         }
 
-        public async Task AtualizarEndereco(Endereco endereco)
+        public async Task UpdateAdress(Endereco endereco)
         {
             if (!ExecutarValidacao(new EnderecoValidation(), endereco)) return;
 
             await _enderecoRepository.Atualizar(endereco);
         }
 
-        public async Task<bool> Remover(Guid id)
+        public async Task<bool> Delete(Guid id)
         {
-            if (_fornecedorRepository.ObterFornecedorProdutosEndereco(id).Result.Produtos.Any())
+            if (_fornecedorRepository.GetProviderProductAdressById(id).Result.Produtos.Any())
             {
                 Notificar("O fornecedor possui produtos cadastrados!");
                 return false;
             }
 
-            var endereco = await _enderecoRepository.ObterEnderecoPorFornecedor(id);
+            var endereco = await _enderecoRepository.GetAdressByProvider(id);
 
             if (endereco != null)
             {

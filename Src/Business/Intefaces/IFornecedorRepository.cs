@@ -6,7 +6,7 @@ namespace Business.Intefaces
 {
     public interface IFornecedorRepository : IRepository<Fornecedor>
     {
-        Task<Fornecedor> ObterFornecedorEndereco(Guid id);
-        Task<Fornecedor> ObterFornecedorProdutosEndereco(Guid id);
+        Task<Fornecedor> GetProviderAdressById(Guid id);
+        Task<Fornecedor> GetProviderProductAdressById(Guid id);
     }
 }

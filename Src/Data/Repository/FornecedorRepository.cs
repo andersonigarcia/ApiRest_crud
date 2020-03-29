@@ -13,14 +13,14 @@ namespace Data.Repository
         {
         }
 
-        public async Task<Fornecedor> ObterFornecedorEndereco(Guid id)
+        public async Task<Fornecedor> GetProviderAdressById(Guid id)
         {
             return await Db.Fornecedores.AsNoTracking()
                 .Include(c => c.Endereco)
                 .FirstOrDefaultAsync(c => c.Id == id);
         }
 
-        public async Task<Fornecedor> ObterFornecedorProdutosEndereco(Guid id)
+        public async Task<Fornecedor> GetProviderProductAdressById(Guid id)
         {
             return await Db.Fornecedores.AsNoTracking()
                 .Include(c => c.Produtos)
